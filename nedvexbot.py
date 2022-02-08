@@ -1076,7 +1076,7 @@ def monteville(client,cb_qry:CallbackQuery):
 
 @app.on_callback_query(filters.regex("oplympicPresentation"))
 def oplympicPresentation(client,cb_qry:CallbackQuery):
-	app.send_document(cb_qry.message.chat.id, r"Презентация Олимпик 2.pdf")
+	app.send_document(cb_qry.message.chat.id, r"Презентация Олимпик 2-сжатый.pdf")
 	cb_qry.answer()
 	
 @app.on_callback_query(filters.regex("oplympicVideo"))
@@ -1965,7 +1965,7 @@ def loyal_program(client,message):
 
 @app.on_message(filters.regex("Партнерская программа"))
 def partner_program(client,message):
-	app.send_document(message.chat.id, "Партнерская программа (Mobile).pdf")
+	app.send_document(message.chat.id, "Партнерская программа (Mobile)_compressed.pdf")
 
 
 
