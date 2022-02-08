@@ -1597,7 +1597,7 @@ def Royal(client,cb_qry:CallbackQuery):
 
 @app.on_callback_query(filters.regex("royalPresentation"))
 def royalPresentation(client,cb_qry:CallbackQuery):
-	app.send_document(cb_qry.message.chat.id, "Книга -презентация Гранд Роял.pdf")
+	app.send_document(cb_qry.message.chat.id, "Книга -презентация Гранд Роял-сжатый.pdf")
 	cb_qry.answer()
 	
 @app.on_callback_query(filters.regex("royalVideo"))
