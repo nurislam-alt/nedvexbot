@@ -1006,7 +1006,7 @@ def montevilleChess(client, cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("montevilleContacts"))
 def montevilleContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
-	+7 988 418-51-41
+	8988-418-51-41
 	Сочи, Морской переулок, 1/1а
 	"""
 	contacts = dedent(contacts)
@@ -1107,7 +1107,7 @@ def oplympicChess(client, cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("oplympicContacts"))
 def oplympicContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
-	+7 988 418-51-41
+	8988-418-51-41
 	Сочи, Морской переулок, 1/1а
 	"""
 	contacts = dedent(contacts)
@@ -1209,7 +1209,7 @@ def sydneyChess(client, cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("sydneyContacts"))
 def sydneyContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
-	+7 988 418-51-41
+	8988-418-51-41
 	Сочи, Морской переулок, 1/1а
 	"""
 	contacts = dedent(contacts)
@@ -1710,7 +1710,7 @@ def aleksandritChess(client, cb_qry:CallbackQuery):
 def aleksandritContacts(client, cb_qry:CallbackQuery):	
 	contacts = """
 	Контакты 
-	8 (800) 770-72-23 
+	8800-770-72-23 
 	Сочи, Завокзальный, ул. Дагомысская, 27
 	"""
 	contacts = dedent(contacts)
