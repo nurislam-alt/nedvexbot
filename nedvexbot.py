@@ -221,7 +221,7 @@ def AtriumAvenueChess(client,cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("AtriumAvenueContacts"))
 def AtriumAvenueContacts(client,cb_qry:CallbackQuery):
 	contacts = """Контакты 
-	8968-300-25-77
+	+79683002577
 	Сочи, ул. Яна Фабрициуса, 33
 	"""
 	contacts = dedent(contacts)
@@ -319,7 +319,7 @@ def ВолнаChess(client,cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("VolnaContacts"))
 def VolnaContacts(client,cb_qry:CallbackQuery):
 	contacts = """Контакты 
-	8962-886-00-56
+	+79628860056
 	Адлер, ул. Ленина, 219А  
 	"""
 	contacts = dedent(contacts)
@@ -418,7 +418,7 @@ def VolnaRezidnesChess(client, cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("VolnaRezidnesContacts"))
 def VolnaRezidnesContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
-	8962-886-00-56
+	+79628860056
 	Адлер, ул. Ленина, 219А
 	"""
 	contacts = dedent(contacts)
@@ -517,7 +517,7 @@ def MoneChess(client, cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("MoneContacts"))
 def MoneContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
-	8962-886-00-56
+	+79628860056
 	Адлер, ул. Ленина, 217А
 	"""
 	contacts = dedent(contacts)
@@ -620,7 +620,7 @@ def AtlasChess(client, cb_qry:CallbackQuery):
 def AtlasContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
 	Сочи, ул. Транспортная, 46  
-	8962-886-00-40
+	+79628860040
 	"""
 	contacts = dedent(contacts)
 	cb_qry.message.reply_text(f"<b>{contacts}</b>",cb_qry.message.chat.id, parse_mode = "HTML")
@@ -709,7 +709,7 @@ def diamondChess(client, cb_qry:CallbackQuery):
 def diamondContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
 	Сочи, Ул . Яна Фабрициуса 64
-	8966-770-30-22
+	+79667703022
 	"""
 	contacts = dedent(contacts)
 	cb_qry.message.reply_text(f"<b>{contacts}</b>",cb_qry.message.chat.id, parse_mode = "HTML")
@@ -802,7 +802,7 @@ def LuchezarniyChess(client, cb_qry:CallbackQuery):
 def LuchezarniyContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
 	Сочи, Дагомыс пос., ул. Лучезарная, 1 
-	8800-600-71-83
+	+78006007183
 	"""
 	contacts = dedent(contacts)
 	cb_qry.message.reply_text(f"<b>{contacts}</b>",cb_qry.message.chat.id, parse_mode = "HTML")
@@ -905,7 +905,7 @@ def WoodlandChess(client, cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("woodlandContacts"))
 def WoodlandContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
-	8988-418-51-41
+	+79884185141
 	Сочи, Морской переулок, 1/1а
 	"""
 	contacts = dedent(contacts)
@@ -1006,7 +1006,7 @@ def montevilleChess(client, cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("montevilleContacts"))
 def montevilleContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
-	8988-418-51-41
+	+79884185141
 	Сочи, Морской переулок, 1/1а
 	"""
 	contacts = dedent(contacts)
@@ -1107,7 +1107,7 @@ def oplympicChess(client, cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("oplympicContacts"))
 def oplympicContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
-	8988-418-51-41
+	+79884185141
 	Сочи, Морской переулок, 1/1а
 	"""
 	contacts = dedent(contacts)
@@ -1209,7 +1209,7 @@ def sydneyChess(client, cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("sydneyContacts"))
 def sydneyContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
-	8988-418-51-41
+	+79884185141
 	Сочи, Морской переулок, 1/1а
 	"""
 	contacts = dedent(contacts)
@@ -1310,7 +1310,7 @@ def simphonyChess(client, cb_qry:CallbackQuery):
 def simphonyContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
 	Адлер, Курортный городок, ул. Ленина, 298
-	8800-770-05-66 
+	+78007700566 
 	"""
 	contacts = dedent(contacts)
 	cb_qry.message.reply_text(f"<b>{contacts}</b>",cb_qry.message.chat.id, parse_mode = "HTML")
@@ -1416,7 +1416,7 @@ def kvartalChess(client, cb_qry:CallbackQuery):
 @app.on_callback_query(filters.regex("kvartalContacts"))
 def kvartalContacts(client, cb_qry:CallbackQuery):	
 	contacts = """Контакты 
-	8800-600-51-29
+	+78006005129
 	Сочи, ул. Львовская, 74
 	"""
 	contacts = dedent(contacts)
@@ -1526,7 +1526,7 @@ def verdiChess(client, cb_qry:CallbackQuery):
 def verdiContacts(client, cb_qry:CallbackQuery):	
 	contacts = """
 	Контакты 
-	8800-770-72-23 
+	+78007707223 
 	Сочи, ул. Курортный пр., 53
 	"""
 	contacts = dedent(contacts)
@@ -1629,7 +1629,7 @@ def royalChess(client, cb_qry:CallbackQuery):
 def royalContacts(client, cb_qry:CallbackQuery):	
 	contacts = """
 	Контакты 
-	8800-770-01-28
+	+78007700128
 	Сочи, ул. Виноградная, 14
 	"""
 	contacts = dedent(contacts)
@@ -1710,7 +1710,7 @@ def aleksandritChess(client, cb_qry:CallbackQuery):
 def aleksandritContacts(client, cb_qry:CallbackQuery):	
 	contacts = """
 	Контакты 
-	8800-770-72-23 
+	+78007707223 
 	Сочи, Завокзальный, ул. Дагомысская, 27
 	"""
 	contacts = dedent(contacts)
@@ -1814,8 +1814,8 @@ def sunChess(client, cb_qry:CallbackQuery):
 def sunContacts(client, cb_qry:CallbackQuery):	
 	contacts = """
 	Контакты 
-	8999-428-09-79 
-	8999-428-09-80
+	+79994280979 
+	+79994280980
 	Ольгинка, Краснодарский край, ул.Солнечная, 1/1 
 	"""
 	contacts = dedent(contacts)
@@ -1961,11 +1961,11 @@ def Back(client,cb_qry:CallbackQuery):
 	
 @app.on_message(filters.regex("Программа лояльности"))
 def loyal_program(client,message):
-	app.send_document(message.chat.id, "Программа лояльности (Mobile).pdf")
+	app.send_document(message.chat.id, "Программа лояльности (Mobile)_compressed.pdf")
 
 @app.on_message(filters.regex("Партнерская программа"))
 def partner_program(client,message):
-	app.send_document(message.chat.id, "Партнерская программа (Mobile)_compressed.pdf")
+	app.send_document(message.chat.id, "Партнерская программа (Mobile).pdf")
 
 
 
